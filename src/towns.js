@@ -160,6 +160,10 @@ filterInput.addEventListener('keyup', function (e) {
         }
         
     }
+    
+    if(substring === '') {
+        filterResult.innerHTML = '';
+    }
 
 });
 
