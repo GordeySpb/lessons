@@ -139,6 +139,8 @@ const eror = () => {
     button.addEventListener('click', () => {
         loadingBlock.innerHTML = 'Загрузка...'
         
+        loadTowns().then(success, eror)
+        
     });
 }
 
