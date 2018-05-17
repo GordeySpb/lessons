@@ -1,9 +1,4 @@
-import {
-    resolve
-} from "dns";
-import {
-    rejects
-} from "assert";
+
 
 /*
  Страница должна предварительно загрузить список городов из
